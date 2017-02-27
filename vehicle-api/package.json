@@ -1,0 +1,16 @@
+{
+  "name": "vehicle-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.5",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "$(yarn bin)/nodemon server.js"
+  }
+}
