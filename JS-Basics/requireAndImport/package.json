@@ -1,0 +1,19 @@
+{
+  "name": "requireAndImport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "$(yarn bin)/babel-node ./requireAndImport.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node6"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015-node6": "^0.4.0"
+  }
+}
