@@ -1,0 +1,12 @@
+{
+  "name": "socketIO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  }
+}
