@@ -7,9 +7,11 @@ const wss = new WebSocket.Server({
 
 wss.on('connection', (ws) => {
 
-  // Recieves the message from client
+  // Receive message from client
   ws.on('message', (message) => {
     console.log('Received: %s', message);
   });
+
+  // Send message to client
   ws.send('The message from server.');
 });
