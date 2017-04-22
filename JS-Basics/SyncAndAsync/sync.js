@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-data = fs.readdirSync('./');
+let data = fs.readdirSync('./');
 
 console.log('data: ', data);
 
