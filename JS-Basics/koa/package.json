@@ -5,6 +5,7 @@
   "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.2.0"
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1"
   }
 }
